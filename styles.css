@@ -1,46 +1,51 @@
-html {
-  font-size: 30px;
-}
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #00916e;
+  background-color: #080708;
+  font-family: "Libre Baskerville", serif;
 }
 
 wrapper {
   display: flex;
   flex-direction: column;
-  background-color: #feefe5;
-  width: 480px;
-  height: 290px;
 
-  /*centering*/
+  min-width: 14em;
+  min-height: 8em;
+
+  width: 60vw;
+  height: 34.28vw;
+
+  max-width: 52.5em;
+  max-height: 30em;
+
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
-  border-radius: 0.5rem;
-  box-shadow: 5px 5px 10px #011936;
+  background-color: #e2e8ce;
+  border-radius: 0.2em;
+  box-shadow: 0.4em 0.4em 0.8em #e2e8ce6e;
+
+  font-size: 3vw;
+
+  padding: 1em;
+  text-align: center;
+
+  color: #0f1a20;
 }
 
 h1 {
-  color: #011936;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 1rem;
-  margin: 1rem auto 0 0;
-  margin-left: 0.5rem;
+  font-size: 2em;
+  margin: 10% 0 0 0;
 }
 h2 {
-  color: #011936;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 0.5rem;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  font-size: 0.7em;
+  margin-top: 0.5em;
+  font-family: "Open Sans", sans-serif;
 }
 
 ul {
@@ -49,18 +54,21 @@ ul {
   flex-direction: row;
   justify-content: space-evenly;
   padding-left: 0;
-  margin-top: 2.7rem;
+  margin: 0;
+  margin-top: 1em;
+
+  font-size: 1em;
 }
 li {
-  color: #011936;
   display: flex;
   flex-flow: column;
   align-items: center;
+  color: #0f1a20;
 }
 .icon-name {
-  font-family: monospace;
-  margin-top: 5px;
-  font-size: 0.6rem;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 0.5em;
+  font-size: 0.5em;
 }
 
 a:visited {
@@ -70,5 +78,5 @@ a:link {
   text-decoration: none;
 }
 li:hover {
-  color: #d81e5b;
+  color: #fe5d26;
 }
